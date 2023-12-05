@@ -17,7 +17,7 @@
   height: 100vh;
 
   background-image: url("../images/background_header.svg");
-  background-position: absolute;
+  background-position: center;
   background-size: cover;
 }
 .nav {
@@ -75,7 +75,7 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font: size 16px;
+  font-size 16px;
   line-height: 20px;
   color: #838383;
   display: flex;
@@ -95,7 +95,7 @@
   margin-bottom: auto;
   top: 124px;
   right: 5px;
-  bottom-margin: auto;
+  margin-bottom: auto;
 
   position: absolute;
 }
