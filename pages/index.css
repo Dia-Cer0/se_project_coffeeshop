@@ -148,3 +148,41 @@
   display: flex;
   justify-content: space-between;
 }
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.reservation__title {
+}
+.reservation__form {
+  border: none;
+}
+.form__fieldset {
+  border: none;
+}
+.form__label {
+  display: block;
+}
+.form__input {
+}
+.form__button {
+}
+.form__input[type="checkbox"] {
+  -ms-progress-appearance: none;
+  appearance: none;
+}
+.form__input[id="terms-of-use"] + span {
+  padding: 5px;
+  background-color: white;
+  -ms-progress-appearance: checkbox;
+  appearance: checkbox;
+}
+.form__input[id="terms-of-use"]:checked + span {
+  padding: 5px;
+  background-color: #2f80ed;
+  -ms-progress-appearance: checkbox;
+  appearance: checkbox;
+}
