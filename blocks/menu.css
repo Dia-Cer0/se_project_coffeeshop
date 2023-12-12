@@ -1,0 +1,46 @@
+.menu{
+  margin:0 auto;
+  padding-top:100px;
+  padding-bottom:100px;
+  padding-left:0;
+  padding-right:0;
+
+  background-color:#fff;
+  background-image:url('../images/background_menu.svg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+}
+.menu__title{
+  margin:0 auto;
+  padding-bottom:24px;
+  text-align:center;
+
+  max-width:780px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle{
+  margin:0 auto;
+  text-align:center;
+
+  max-width:780px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+/*mix for card positioning only*/
+.menu__cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:100px;
+  margin: 0 auto;
+  padding-top:100px;
+  max-width:1180px;
+}
