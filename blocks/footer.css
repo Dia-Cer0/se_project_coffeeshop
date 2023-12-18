@@ -13,6 +13,8 @@
   width:105px;
 }
 .footer__social-heading{
+  font-size:16px;
+
   margin-top:0;
   margin-bottom:0;
   margin-left:auto;
@@ -39,12 +41,23 @@
   gap:10px;
   justify-content:space-between;
   text-decoration:none;
+  transition:color 0.3s ease-in-out;
+  transition:opacity 0.3s ease-in-out;
+}
+.footer__social-link:hover{
+  color:#c1c1c1;
+  opacity:0.5;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  justify-content:space-between;
+  text-decoration:none;
 }
 .footer__copyright{
   margin:0;
   padding-top:108px;
 
-  font-family: "Inter";
+  font-family: "Inter", arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
