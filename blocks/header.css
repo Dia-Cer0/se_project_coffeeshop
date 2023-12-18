@@ -1,5 +1,6 @@
 /*header block*/
 .header {
+  z-index:1;
   position:relative;
   display: flex;
   flex-direction: column;
@@ -67,4 +68,5 @@
   margin-bottom: auto;
 
   position: absolute;
+  z-index:-1;
 }
